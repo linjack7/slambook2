@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -O2")
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
-# Eigen
+# Eigen大幅度撒发
 include_directories("/usr/include/eigen3")
 
 # sophus 
